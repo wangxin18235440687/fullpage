@@ -1,0 +1,335 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-06 11:19:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-08 18:12:08
+*/
+*{
+	font-family: '宋体';
+	font-weight: normal;
+}
+.iconfont1 {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.downbutton{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	text-align: center;
+	bottom: 5px;
+	left: 50%;
+	margin-left: -25px;
+	font-size: 20px;
+	line-height: 50px;
+	transition: all 0.5s;
+	z-index: 999;
+	
+}
+.logo{
+	width: 260px;
+	height: 275px;
+	overflow: hidden;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+
+}
+.logobox{
+	width: 100%;
+	height: 275px;
+	transition: all 2s;
+	transform: translateX(-1000px);
+
+}
+.active .logobox{
+	transition-delay: 0.5s;
+	transform: translateX(0);
+}
+.leftbox1{
+	width: 700px;
+	position: absolute;
+	left: 0;
+	top: 10%;
+}
+.text{
+	width: 280px;
+	height: 100%;
+	font-size: 50px;
+	color: white;
+	float: left;
+	font-family: '宋体';
+	line-height: 100px;
+}
+.jiejian{
+	
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	height: 100px;
+	line-height: 30px;
+	transition: all 2s;
+	transform: translateX(-1000px);
+	margin-top: 10px;
+
+
+}
+.active .jiejian{
+	transition-delay: 1s;
+	transform: translateX(0);
+}
+.rightbox1{
+	width: 400px;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	
+}
+.rtbx1_1{
+	width: 100%;
+	color: #e0e0e0;
+	margin-bottom: 30px;
+	transition: all 1.5s;
+	transform: translateX(700px);
+}
+.iconfont2{
+	color: #26ace3;
+	font-size: 16px;
+	float: left;	
+}
+.rtbx1_1 p{
+	
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.rtbx1_1 .title{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+
+}
+.rtbx1_1 span{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	line-height: 25px;
+}
+.active .rtbx1_1{
+	transition-delay: 1s;
+	transform: translateX(0);
+}
+.active .rtbx1_2{
+	transition-delay: 1.2s;
+	transform: translateX(0);
+}
+.active .rtbx1_3{
+	transition-delay: 1.4s;
+	transform: translateX(0);
+}
+.top2{
+	position: absolute;
+	left: 0;
+	top: 13%;
+	width: 750px;
+	height: 300px;
+	transition: all 1s;
+	transform: translateX(-100px);
+	opacity: 0;
+	
+}
+.top2 span{
+	color: white;
+	font-size: 18px;
+	line-height: 22px;
+}
+.top2 h1{
+	font-size: 46px;
+	margin-top: 20px;
+	color: white;
+}
+.top2 p{
+	font-size: 16px;
+	color: white;
+	line-height: 30px;
+	margin-top: 20px;
+	
+}
+.readmore2{
+		background: #26ace3;
+		width: 100px;
+		height: 40px;
+		border: none;
+		outline: none;
+		color: white;
+		text-align: center;
+		line-height: 40px;
+		font-size: 18px;
+		margin-top: 30px;
+		border-radius: 6px;
+		font-family: '宋体';
+		
+	}
+.active .top2{
+	transition-delay: 0.5s;
+	transform: translateX(0);
+	opacity: 1;
+}
+.iconfont3{
+	font-size: 50px;
+	color: #26ace3;
+	float: left;
+}
+.butom2{
+	width: 1200px;
+	margin-top: 40px;
+}
+.butom2 ul{
+	width: 100%;
+}
+.butom2 ul li{
+	width: 22%;
+	
+	float: left;
+	margin-right: 30px;
+}
+.text2{
+	
+	float: left;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 20px;
+	margin-left: 30px;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.text2 h2{
+	font-size: 20px;
+}
+.text2 h3{
+	font-size: 14px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+.li_1{
+	transition: all 1.5s;
+	transform: translateX(-300px);
+	opacity: 0;
+}
+.active .li_1{
+	transition-delay: 0.8s;
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.li_2{
+	transition: all 1.6s;
+	transform: translateX(-500px);
+	opacity: 0;
+}
+.active .li_2{
+	transition-delay: 1s;
+	transform: translateX(0);
+	opacity: 1;
+}
+.li_3{
+	transition: all 1.7s;
+	transform: translateX(-700px);
+	opacity: 0;
+}
+.active .li_3{
+	transition-delay: 1.2s;
+	transform: translateX(0);
+	opacity: 1;
+}
+.li_4{
+	transition: all 1.8s;
+	transform: translateX(-900px);
+	opacity: 0;
+}
+.active .li_4{
+	transition-delay: 1.4s;
+	transform: translateX(0);
+	opacity: 1;
+}
+.top3{
+	width: 450px;
+}
+.top3 p{
+	text-align: justify;
+}
+.butom3 .iconfont3{
+	font-size: 20px;
+}
+.butom3 ul li .text2{
+	border: none;
+	margin-left: 10px;
+	padding: 0;
+}
+.butom3 ul li{
+	width: auto;
+	margin-right: 20px;
+}
+.butom3 ul li .text2 h2{
+	font-size: 16px;
+}
+.butom3{
+	margin-top: 20px;
+}
+.ul_3 li{
+	transition: all 2s;
+	transform: translateY(50px);
+	opacity: 0;
+}
+.active .ul_3 li{
+	transition-delay: 1s;
+	transform: translateY(0);
+	opacity: 1;
+}
+.shouh{
+	width: 500px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 15%;
+	top: 25%;
+	opacity: 0;
+	transition: all 1s;
+}
+.active .shouh{
+	transition-delay: 1.5s;
+	opacity: 1;
+}
+.tutu{
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.shouh h1{
+	width: 100%;
+	margin-top: 22px;
+	text-align: center;
+	color: white;
+}
+.shouh p{
+	width: 100%;
+	font-size: 16px;
+	padding: 20px;
+	color: white;
+	box-sizing: border-box;
+	opacity: 0.8;
+}
+.rightext{
+	width: 350px;
+	float: right;
+	box-sizing: border-box;
+	padding:20px;
+}
+.tutu img{
+	width: 100%;
+}
